@@ -18,16 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AKF-RS-qZG">
-                                <rect key="frame" x="87" y="269" width="200" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKF-RS-qZG">
+                                <rect key="frame" x="87.5" y="517" width="200" height="100"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="HSW-IE-rhh"/>
+                                    <constraint firstAttribute="height" constant="100" id="eLl-I5-9XD"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AKF-RS-qZG" secondAttribute="bottom" constant="50" id="acT-xc-D4d"/>
                             <constraint firstItem="AKF-RS-qZG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vfR-Rq-G4H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
