@@ -12,6 +12,7 @@
 		491A9ACF20E5281F007DC87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491A9ACD20E5281F007DC87D /* Main.storyboard */; };
 		491A9AD120E52821007DC87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491A9AD020E52821007DC87D /* Assets.xcassets */; };
 		491A9AD420E52821007DC87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491A9AD220E52821007DC87D /* LaunchScreen.storyboard */; };
+		491E832B20E785CF008D2E70 /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491E832A20E785CF008D2E70 /* LayoutGuides.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		491A9AD020E52821007DC87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491A9AD320E52821007DC87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491A9AD520E52821007DC87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491E832A20E785CF008D2E70 /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				491A9AC920E5281F007DC87D /* AppDelegate.swift */,
 				491A9ACB20E5281F007DC87D /* ViewController.swift */,
 				491A9ACD20E5281F007DC87D /* Main.storyboard */,
+				491E832A20E785CF008D2E70 /* LayoutGuides.storyboard */,
 				491A9AD020E52821007DC87D /* Assets.xcassets */,
 				491A9AD220E52821007DC87D /* LaunchScreen.storyboard */,
 				491A9AD520E52821007DC87D /* Info.plist */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491A9AD420E52821007DC87D /* LaunchScreen.storyboard in Resources */,
+				491E832B20E785CF008D2E70 /* LayoutGuides.storyboard in Resources */,
 				491A9AD120E52821007DC87D /* Assets.xcassets in Resources */,
 				491A9ACF20E5281F007DC87D /* Main.storyboard in Resources */,
 			);
