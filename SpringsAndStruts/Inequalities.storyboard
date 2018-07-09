@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kcR-YX-1E4">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,17 +15,17 @@
             <objects>
                 <viewController id="kcR-YX-1E4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bbD-lu-UeZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPf-9H-arq">
-                                <rect key="frame" x="170.5" y="323.5" width="34" height="20.5"/>
+                                <rect key="frame" x="143" y="274" width="34" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX8-qu-N80">
-                                <rect key="frame" x="158" y="446.5" width="59" height="20.5"/>
+                                <rect key="frame" x="130.5" y="347.5" width="59" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,7 +37,7 @@
                             <constraint firstItem="GPf-9H-arq" firstAttribute="centerY" secondItem="bbD-lu-UeZ" secondAttribute="centerY" id="GJo-zZ-MhB"/>
                             <constraint firstItem="fX8-qu-N80" firstAttribute="top" relation="greaterThanOrEqual" secondItem="GPf-9H-arq" secondAttribute="bottom" constant="32" id="Rma-KQ-9mT"/>
                             <constraint firstItem="GPf-9H-arq" firstAttribute="centerX" secondItem="bbD-lu-UeZ" secondAttribute="centerX" id="fyf-jz-Zac"/>
-                            <constraint firstItem="j0k-he-Xxi" firstAttribute="bottom" secondItem="fX8-qu-N80" secondAttribute="bottom" constant="200" id="kVy-LW-zhq"/>
+                            <constraint firstItem="j0k-he-Xxi" firstAttribute="bottom" secondItem="fX8-qu-N80" secondAttribute="bottom" priority="750" constant="200" id="kVy-LW-zhq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j0k-he-Xxi"/>
                     </view>
