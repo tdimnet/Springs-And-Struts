@@ -34,9 +34,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="blueView" destination="KGH-K4-fH4" id="hPR-8y-Via"/>
+                        <outlet property="greenView" destination="vce-BG-p26" id="vU8-Q3-55G"/>
+                        <outlet property="redView" destination="iDb-cm-KvE" id="cfC-Oq-SfL"/>
+                        <outlet property="yelloView" destination="aZR-rJ-cSc" id="gGa-BC-7sW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="86.25" y="148.96333333333331"/>
         </scene>
     </scenes>
 </document>
