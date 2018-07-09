@@ -18,15 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2hZ-mr-lZB">
-                                <rect key="frame" x="127" y="575" width="121" height="60"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="2hZ-mr-lZB">
+                                <rect key="frame" x="35.5" y="605" width="304" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGv-9d-P81">
-                                        <rect key="frame" x="0.0" y="0.0" width="121" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
                                         <state key="normal" title="Start"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozH-cT-Ugf">
-                                        <rect key="frame" x="0.0" y="30" width="121" height="30"/>
+                                        <rect key="frame" x="48" y="0.0" width="121" height="30"/>
+                                        <state key="normal" title="Suspend Account"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EU-nm-B2L">
+                                        <rect key="frame" x="183" y="0.0" width="121" height="30"/>
                                         <state key="normal" title="Suspend Account"/>
                                     </button>
                                 </subviews>
