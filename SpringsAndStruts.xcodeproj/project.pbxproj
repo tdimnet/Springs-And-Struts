@@ -12,6 +12,10 @@
 		491A9ACF20E5281F007DC87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491A9ACD20E5281F007DC87D /* Main.storyboard */; };
 		491A9AD120E52821007DC87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491A9AD020E52821007DC87D /* Assets.xcassets */; };
 		491A9AD420E52821007DC87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491A9AD220E52821007DC87D /* LaunchScreen.storyboard */; };
+		491E832B20E785CF008D2E70 /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491E832A20E785CF008D2E70 /* LayoutGuides.storyboard */; };
+		499C6D6E20F360EE00AC14E4 /* Inequalities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C6D6D20F360EE00AC14E4 /* Inequalities.storyboard */; };
+		499C6D7020F3688500AC14E4 /* IntrinsicContentSize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C6D6F20F3688500AC14E4 /* IntrinsicContentSize.storyboard */; };
+		499C6D7220F36DFA00AC14E4 /* BasicStackViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C6D7120F36DFA00AC14E4 /* BasicStackViews.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		491A9AD020E52821007DC87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491A9AD320E52821007DC87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491A9AD520E52821007DC87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491E832A20E785CF008D2E70 /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
+		499C6D6D20F360EE00AC14E4 /* Inequalities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inequalities.storyboard; sourceTree = "<group>"; };
+		499C6D6F20F3688500AC14E4 /* IntrinsicContentSize.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IntrinsicContentSize.storyboard; sourceTree = "<group>"; };
+		499C6D7120F36DFA00AC14E4 /* BasicStackViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicStackViews.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 				491A9AC920E5281F007DC87D /* AppDelegate.swift */,
 				491A9ACB20E5281F007DC87D /* ViewController.swift */,
 				491A9ACD20E5281F007DC87D /* Main.storyboard */,
-				491A9AD020E52821007DC87D /* Assets.xcassets */,
+				491E832A20E785CF008D2E70 /* LayoutGuides.storyboard */,
+				499C6D6D20F360EE00AC14E4 /* Inequalities.storyboard */,
+				499C6D6F20F3688500AC14E4 /* IntrinsicContentSize.storyboard */,
+				499C6D7120F36DFA00AC14E4 /* BasicStackViews.storyboard */,
 				491A9AD220E52821007DC87D /* LaunchScreen.storyboard */,
+				491A9AD020E52821007DC87D /* Assets.xcassets */,
 				491A9AD520E52821007DC87D /* Info.plist */,
 			);
 			path = SpringsAndStruts;
@@ -123,8 +135,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				491A9AD420E52821007DC87D /* LaunchScreen.storyboard in Resources */,
+				499C6D7220F36DFA00AC14E4 /* BasicStackViews.storyboard in Resources */,
+				499C6D7020F3688500AC14E4 /* IntrinsicContentSize.storyboard in Resources */,
+				491E832B20E785CF008D2E70 /* LayoutGuides.storyboard in Resources */,
 				491A9AD120E52821007DC87D /* Assets.xcassets in Resources */,
 				491A9ACF20E5281F007DC87D /* Main.storyboard in Resources */,
+				499C6D6E20F360EE00AC14E4 /* Inequalities.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
